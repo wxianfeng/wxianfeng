@@ -22,25 +22,10 @@ I build AI-native tools that turn complex enterprise capabilities into interface
 - **[hanzi_to_pinyin](https://github.com/wxianfeng/hanzi_to_pinyin)** — A lightweight Ruby library for converting Chinese Hanzi to Pinyin. `Ruby` `NLP`
 - **[hanzi_to_pinyin_node](https://github.com/wxianfeng/hanzi_to_pinyin_node)** — A Node.js implementation for practical Chinese text processing. `JavaScript` `NLP`
 
-## GitHub at a glance
+## Engineering map
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wxianfeng&amp;theme=github_dark">
-    <img width="49%" alt="Top languages by repository" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wxianfeng&amp;theme=default">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=wxianfeng&amp;theme=github_dark">
-    <img width="49%" alt="Top languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=wxianfeng&amp;theme=default">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wxianfeng&amp;theme=github_dark">
-    <img width="49%" alt="GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wxianfeng&amp;theme=default">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wxianfeng&amp;theme=github_dark&amp;utcOffset=8">
-    <img width="49%" alt="Productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wxianfeng&amp;theme=default&amp;utcOffset=8">
-  </picture>
+  <img width="100%" alt="Four-quadrant AI-native engineering map" src="./assets/ai-native-engineering-map.svg">
 </p>
 
 <div align="center">
