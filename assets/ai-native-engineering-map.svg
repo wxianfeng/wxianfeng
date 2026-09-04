@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title description">
+  <title id="title">AI-native engineering map</title>
+  <desc id="description">A four-quadrant map spanning open source to enterprise and infrastructure to experience. The quadrants are Agent Infrastructure, Developer Experience, Secure Platform, and Workflow Automation.</desc>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #f6f8fa;
+      --panel: #ffffff;
+      --text: #1f2328;
+      --muted: #59636e;
+      --border: #d0d7de;
+      --axis: #8c959f;
+      --center: #24292f;
+      --center-text: #ffffff;
+      --blue-bg: #ddf4ff;
+      --blue-border: #54aeff;
+      --blue: #0969da;
+      --purple-bg: #fbefff;
+      --purple-border: #c297ff;
+      --purple: #8250df;
+      --green-bg: #dafbe1;
+      --green-border: #4ac26b;
+      --green: #1a7f37;
+      --orange-bg: #fff1e5;
+      --orange-border: #fb8f44;
+      --orange: #bc4c00;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --canvas: #0d1117;
+        --panel: #161b22;
+        --text: #e6edf3;
+        --muted: #8b949e;
+        --border: #30363d;
+        --axis: #6e7681;
+        --center: #f0f6fc;
+        --center-text: #0d1117;
+        --blue-bg: #0c2d4a;
+        --blue-border: #1f6feb;
+        --blue: #58a6ff;
+        --purple-bg: #2b1b45;
+        --purple-border: #8957e5;
+        --purple: #bc8cff;
+        --green-bg: #12351e;
+        --green-border: #238636;
+        --green: #56d364;
+        --orange-bg: #3d250f;
+        --orange-border: #bd561d;
+        --orange: #ffa657;
+      }
+    }
+
+    text {
+      font-family: Inter, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      fill: var(--text);
+    }
+
+    .frame {
+      fill: var(--canvas);
+      stroke: var(--border);
+    }
+
+    .map-title {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    .map-subtitle {
+      fill: var(--muted);
+      font-size: 14px;
+    }
+
+    .axis {
+      fill: none;
+      stroke: var(--axis);
+      stroke-width: 1.5;
+    }
+
+    .axis-label {
+      fill: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+    }
+
+    .panel {
+      stroke-width: 1.25;
+    }
+
+    .quadrant-title {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .quadrant-tags {
+      fill: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .quadrant-copy {
+      fill: var(--muted);
+      font-size: 13px;
+    }
+
+    .number {
+      font-size: 11px;
+      font-weight: 800;
+      text-anchor: middle;
+    }
+
+    .blue .panel { fill: var(--blue-bg); stroke: var(--blue-border); }
+    .blue .quadrant-title, .blue .number { fill: var(--blue); }
+    .blue .number-ring { fill: var(--panel); stroke: var(--blue-border); }
+
+    .purple .panel { fill: var(--purple-bg); stroke: var(--purple-border); }
+    .purple .quadrant-title, .purple .number { fill: var(--purple); }
+    .purple .number-ring { fill: var(--panel); stroke: var(--purple-border); }
+
+    .green .panel { fill: var(--green-bg); stroke: var(--green-border); }
+    .green .quadrant-title, .green .number { fill: var(--green); }
+    .green .number-ring { fill: var(--panel); stroke: var(--green-border); }
+
+    .orange .panel { fill: var(--orange-bg); stroke: var(--orange-border); }
+    .orange .quadrant-title, .orange .number { fill: var(--orange); }
+    .orange .number-ring { fill: var(--panel); stroke: var(--orange-border); }
+
+    .number-ring { stroke-width: 1.25; }
+    .center { fill: var(--center); stroke: var(--canvas); stroke-width: 7; }
+    .center-label { fill: var(--center-text); font-size: 13px; font-weight: 800; text-anchor: middle; }
+  </style>
+
+  <rect class="frame" x="1" y="1" width="958" height="558" rx="18"/>
+
+  <text class="map-title" x="480" y="48" text-anchor="middle">AI-NATIVE ENGINEERING MAP</text>
+  <text class="map-subtitle" x="480" y="74" text-anchor="middle">Building the foundations and experiences that turn intent into completed work</text>
+
+  <path class="axis" d="M480 118 V512 M473 128 L480 118 L487 128 M473 502 L480 512 L487 502"/>
+  <path class="axis" d="M42 316 H918 M52 309 L42 316 L52 323 M908 309 L918 316 L908 323"/>
+
+  <text class="axis-label" x="480" y="106" text-anchor="middle">OPEN SOURCE</text>
+  <text class="axis-label" x="480" y="536" text-anchor="middle">ENTERPRISE</text>
+  <text class="axis-label" x="44" y="302">INFRASTRUCTURE</text>
+  <text class="axis-label" x="916" y="302" text-anchor="end">EXPERIENCE</text>
+
+  <g class="blue">
+    <rect class="panel" x="70" y="140" width="370" height="144" rx="14"/>
+    <circle class="number-ring" cx="101" cy="173" r="17"/>
+    <text class="number" x="101" y="177">01</text>
+    <text class="quadrant-title" x="130" y="178">AGENT INFRASTRUCTURE</text>
+    <text class="quadrant-tags" x="96" y="220">MCP · Skills · Tool Use</text>
+    <text class="quadrant-copy" x="96" y="250">Composable foundations for capable agents</text>
+  </g>
+
+  <g class="purple">
+    <rect class="panel" x="520" y="140" width="370" height="144" rx="14"/>
+    <circle class="number-ring" cx="551" cy="173" r="17"/>
+    <text class="number" x="551" y="177">02</text>
+    <text class="quadrant-title" x="580" y="178">DEVELOPER EXPERIENCE</text>
+    <text class="quadrant-tags" x="546" y="220">CLI · APIs · Cross-platform</text>
+    <text class="quadrant-copy" x="546" y="250">Clear interfaces for both humans and AI</text>
+  </g>
+
+  <g class="green">
+    <rect class="panel" x="70" y="348" width="370" height="144" rx="14"/>
+    <circle class="number-ring" cx="101" cy="381" r="17"/>
+    <text class="number" x="101" y="385">03</text>
+    <text class="quadrant-title" x="130" y="386">SECURE PLATFORM</text>
+    <text class="quadrant-tags" x="96" y="428">OAuth · Zero Trust · Reliability</text>
+    <text class="quadrant-copy" x="96" y="458">Production foundations with safe defaults</text>
+  </g>
+
+  <g class="orange">
+    <rect class="panel" x="520" y="348" width="370" height="144" rx="14"/>
+    <circle class="number-ring" cx="551" cy="381" r="17"/>
+    <text class="number" x="551" y="385">04</text>
+    <text class="quadrant-title" x="580" y="386">WORKFLOW AUTOMATION</text>
+    <text class="quadrant-tags" x="546" y="428">Docs · IM · Calendar · Business Apps</text>
+    <text class="quadrant-copy" x="546" y="458">Turning user intent into completed work</text>
+  </g>
+
+  <circle class="center" cx="480" cy="316" r="31"/>
+  <text class="center-label" x="480" y="321">AI × DX</text>
+</svg>
